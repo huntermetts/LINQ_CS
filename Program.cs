@@ -53,13 +53,77 @@ namespace linq
 
             foreach (string name in descend){
                 Console.WriteLine(name);
-
             }
             //
 
             Console.WriteLine("_______________________________________");
 
+            // Build a collection of these numbers sorted in ascending order
+            List<int> numbers2 = new List<int>()
+            {
+                15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+            };
 
+            IEnumerable<int> numbersList = from num in numbers2
+            orderby num ascending
+            select num;
+
+            foreach (int num in numbersList){
+                Console.WriteLine(num);
+            }
+
+            Console.WriteLine("_______________________________________");
+
+            // Output how many numbers are in this list
+            List<int> numbersAgr = new List<int>()
+            {
+                15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+            };
+            int allNums = numbersAgr.Count();
+
+            Console.WriteLine(allNums);
+
+            Console.WriteLine("_______________________________________");
+
+            List<double> purchases = new List<double>()
+            {
+                2340.29, 745.31, 21.76, 34.03, 4786.45, 879.45, 9442.85, 2454.63, 45.65
+            };
+
+            double allNumSum = purchases.Sum();
+
+            Console.WriteLine(allNumSum);
+
+            Console.WriteLine("_______________________________________");
+
+            // What is our most expensive product?
+            List<double> prices = new List<double>()
+            {
+                879.45, 9442.85, 2454.63, 45.65, 2340.29, 34.03, 4786.45, 745.31, 21.76
+            };
+
+            double maxNum = prices.Max();
+
+            Console.WriteLine(maxNum);
+
+            Console.WriteLine("_______________________________________");
+
+            /*
+            Store each number in the following List until a perfect square
+            is detected.
+
+            Ref: https://msdn.microsoft.com/en-us/library/system.math.sqrt(v=vs.110).aspx
+            */
+            List<int> wheresSquaredo = new List<int>()
+            {
+                66, 12, 8, 27, 82, 34, 7, 50, 19, 46, 81, 23, 30, 4, 68, 14
+            };
+
+            IEnumerable<int> notSquaredo = wheresSquaredo.TakeWhile(num => Math.Sqrt(num) % 1 !=0);
+
+            foreach (int squareNum in notSquaredo){
+                Console.WriteLine(squareNum);
+            }
         }
     }
 }
