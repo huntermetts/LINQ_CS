@@ -1,0 +1,1 @@
+# LINQ (intro practice questions) querying data in CS

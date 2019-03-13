@@ -1,0 +1,11 @@
+/Users/HunterMetts/workspace/backendWorkspace/linq/bin/Debug/netcoreapp2.2/linq.deps.json
+/Users/HunterMetts/workspace/backendWorkspace/linq/bin/Debug/netcoreapp2.2/linq.runtimeconfig.json
+/Users/HunterMetts/workspace/backendWorkspace/linq/bin/Debug/netcoreapp2.2/linq.runtimeconfig.dev.json
+/Users/HunterMetts/workspace/backendWorkspace/linq/bin/Debug/netcoreapp2.2/linq.dll
+/Users/HunterMetts/workspace/backendWorkspace/linq/bin/Debug/netcoreapp2.2/linq.pdb
+/Users/HunterMetts/workspace/backendWorkspace/linq/obj/Debug/netcoreapp2.2/linq.csprojAssemblyReference.cache
+/Users/HunterMetts/workspace/backendWorkspace/linq/obj/Debug/netcoreapp2.2/linq.csproj.CoreCompileInputs.cache
+/Users/HunterMetts/workspace/backendWorkspace/linq/obj/Debug/netcoreapp2.2/linq.AssemblyInfoInputs.cache
+/Users/HunterMetts/workspace/backendWorkspace/linq/obj/Debug/netcoreapp2.2/linq.AssemblyInfo.cs
+/Users/HunterMetts/workspace/backendWorkspace/linq/obj/Debug/netcoreapp2.2/linq.dll
+/Users/HunterMetts/workspace/backendWorkspace/linq/obj/Debug/netcoreapp2.2/linq.pdb
